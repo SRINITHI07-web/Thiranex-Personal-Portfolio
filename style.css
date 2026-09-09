@@ -1,0 +1,146 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background-color: hsla(42, 66%, 26%, 0.832);
+}
+
+/* Header */
+header {
+    background-color: #0f1012bb;
+    color: #d8ba55;
+    padding: 10px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: bottom 20px;;
+    margin-left: 80%;
+}
+
+nav a {
+    color: #d8ba55;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+    margin-bottom: 15px;
+}
+
+span{
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #0e0f0f;
+}
+
+a:focus {
+    outline: 3px solid #ffcc65;
+    outline-offset: 3px;
+    cursor: pointer;
+}
+
+/* Form */
+form {
+    max-width: 600px;
+    margin-left: 30%;
+    
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #9c8568;
+    border-radius: 10px;
+    font: inherit;
+    background-color: #221d1a;
+    color: #f7a854;
+    
+}
+
+input:focus,
+textarea:focus {
+    outline: 3px solid #ffbf47;
+    outline-offset: 2px;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #221d1a;
+    color: #bc7614;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font: inherit;
+}
+
+button:hover {
+    background-color: #d8ae59;
+    color: #221d1a;
+}
+
+button:focus {
+    outline: 3px solid #ffbf47;
+    outline-offset: 3px;
+}
+
+/* Footer */
+footer {
+    background-color: #11131649;
+    color: #f7a854;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10%;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
